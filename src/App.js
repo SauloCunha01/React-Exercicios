@@ -1,10 +1,18 @@
 import './App.css';
 import BoasVindas from './Components/BoasVindas'
+import Card from './Components/Card';
+import Componente10 from './Components/Componente10';
 function App() {
   return (
     <div className="App" >
-      <BoasVindas nome="Saulo Cunha de Sousa"/>
-      
+      <div className='Titulo'>
+        <BoasVindas nome="Saulo Cunha de Sousa" />
+      </div>
+      <div className='Cards'>
+        <Card titulo="#EXERCÍCIO 10" cor="#fbeea8">
+          <Componente10 ></Componente10>
+        </Card>
+      </div>
     </div>
   );
 }
