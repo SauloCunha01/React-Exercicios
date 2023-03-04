@@ -1,0 +1,10 @@
+.Par{
+background-color: #72b1a4;
+}
+ .Impar{
+    background-color: #d4e2b6;
+}
+.Tabela tr:first-child{
+    background-color:#2b4e72;
+    color:white;
+}
